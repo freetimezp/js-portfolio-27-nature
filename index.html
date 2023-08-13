@@ -78,7 +78,7 @@
             </div>
         </div>
 
-        <a href="#" class="play">
+        <a href="#" class="play" onClick="toggleVideo();">
             <i class="fa fa-play-circle-o" aria-hidden="true"></i> Watch Trailer
         </a>
 
@@ -99,6 +99,11 @@
                 </a>
             </li>
         </ul>
+    </div>
+
+    <div class="trailer">
+        <video src="./assets/videos/world-1.mp4" id="trailer-video" muted controls="true" autoplay="true"></video>
+        <i class="fa fa-close close" onClick="toggleVideo();"></i>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
