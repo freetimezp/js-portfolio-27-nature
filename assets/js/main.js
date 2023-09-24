@@ -8,7 +8,7 @@ function toggleVideo() {
 function changeBg(bg, title) {
     const banner = document.querySelector('.banner');
     const contents = document.querySelectorAll('.content');
-    banner.style.background = `url("../js-portfolio-27-nature/assets/images/${bg}")`;
+    banner.style.background = `url("./assets/images/${bg}")`;
     banner.style.backgroundSize = "cover";
     banner.style.backgroundPosition = "center";
 
